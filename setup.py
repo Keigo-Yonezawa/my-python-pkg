@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages, setup
 
 
-PACKAGE_DIRNAME = 'my-python-pkg'
+PACKAGE_DIRNAME = 'my_python_pkg'
 ROOT_DIR = os.path.dirname(__file__)
 
 with open(os.path.join(ROOT_DIR, 'README.md')) as readme:
