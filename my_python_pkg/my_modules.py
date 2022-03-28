@@ -1,6 +1,3 @@
-__test__  = "test"
-
-
 def boxplot_group_by_sns(X, group_label, target_label):
     index_sorted = X.groupby(group_label)[target_label].mean().sort_values().index
     labels = []
