@@ -1,1 +1,1 @@
-from my_python_pkg.version import boxplot_group_by_sns
+from my_python_pkg.my_modules import boxplot_group_by_sns
