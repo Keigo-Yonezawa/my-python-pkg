@@ -1,1 +1,1 @@
-from my_python_pkg.my_modules import boxplot_group_by_sns
+from version import __version__

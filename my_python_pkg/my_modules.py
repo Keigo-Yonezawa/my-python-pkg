@@ -18,3 +18,6 @@ def boxplot_group_by_sns(X, group_label, target_label) -> None:
     plt.ylabel(group_label)
     plt.grid(True)
     plt.show()
+
+def return_name() -> str:
+    return "yone_kaggle"
